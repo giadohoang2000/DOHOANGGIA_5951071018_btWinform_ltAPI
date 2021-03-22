@@ -1,0 +1,11 @@
+CREATE DATABASE Demo_winform
+USE Demo_winform
+
+CREATE TABLE StudentTB(
+StudenID INT PRIMARY KEY,
+Name NVARCHAR(50),
+FatherName NVARCHAR(50),
+RollNumber NVARCHAR(50),
+Address NVARCHAR(200),
+Mobile NVARCHAR(15)
+)
